@@ -9,7 +9,7 @@ use Auth;
 
 class ClassSubjectController extends Controller
 {
-    public function list()
+    public function list(Request $request)
     {
         $data['getRecord'] = ClassSubjectModel::getRecord();
         $data['header_title'] = "Assign Subject List";

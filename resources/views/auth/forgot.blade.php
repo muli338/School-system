@@ -50,7 +50,7 @@
       <p class="mb-1">
         <br/>
         <b/>
-        <a href="">Login</a>
+        <a href="{{ url('login')}}>Login</a>
       </p>
       
     </div>
